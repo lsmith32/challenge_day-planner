@@ -15,3 +15,5 @@ https://lsmith32.github.io/challenge_day-planner/
 
 ## Contribution
 Made with ❤️ by Lauren
+
+![2022-01-09](https://user-images.githubusercontent.com/93622828/148720372-6622253e-5f2b-4c26-8bd2-001a69b71d25.png)
