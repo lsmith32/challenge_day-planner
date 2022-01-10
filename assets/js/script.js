@@ -30,7 +30,7 @@ $(".block3").text(time3);
 var time4 = beforeTime.add(1, "h");
 time4 = time4.format('hh:mm a');
 //puts into HTML
-$(".block4").text(time1);
+$(".block4").text(time4);
 
 //13pm
 var time5 = beforeTime.add(1, "h");
@@ -63,3 +63,12 @@ time9 = time9.format('hh:mm a');
 $(".block9").text(time9);
 
 //function to compare current time with hour blocks
+
+//save inputs to local
+$(".saveBtn").click(function() {
+    event.preventDefault();
+    var formValue = $(this).siblings(".form-control").val();
+    var listItem = $(this).parent().data("hour");
+
+    localStorage.setItem(listItem, formValue);
+});
