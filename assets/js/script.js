@@ -9,6 +9,11 @@ var beforeTime = moment().startOf('day').add(9, "hours");
 
 //hour blocks
 //9am
+var time1 = beforeTime.add(0, "h");
+time1 = time1.format('hh:mm a');
+//puts into HTML
+$(".block1").text(time1);
+
 //10am
 //11am
 //12pm
